@@ -16,6 +16,13 @@ body{
     text-align: center;
 }
 
+.introducao{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .espacoentreasintroducoes{
     padding-top: 4%;
     padding-bottom: 4%;
