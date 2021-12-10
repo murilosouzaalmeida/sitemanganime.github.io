@@ -10,7 +10,7 @@ body{
 #home{
     position: relative;
     margin-top: 2%;
-    width: 80%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -28,6 +28,37 @@ body{
     padding-bottom: 4%;
 }
 
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 3em;
+    text-align: center;
+}
+
+.itensfooter{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.itensfooter li{
+    margin: 0 1em;
+}
+
+.itensfooter li:hover{
+    color: #A9A9A9;
+    cursor: pointer;
+}
+
+.iconefooter{
+    font-size: 1.5em;
+}
+
+.textofooter{
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+}
+
 @media screen and (min-width: 1001px){
     .espacocarrossel{
         padding-top: 2rem;
@@ -36,7 +67,8 @@ body{
     }
 
     .barradenavegacao{
-        padding-top: 2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 }
 
